@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  /*background-color:#eaf1f5;
+  background-color:#bfd3de;*/
+}
+h2 {
+  text-align: center;
+}
+/* Top Banner */
+.banner-text{
+   color: #6D6F6F;
+   text-align: center;
+   letter-spacing: 0.3em;
+}
+
+.top-banner {
+  background-color:#eaf1f5;
+  padding: 30px 30px;
+}
+/* First Image */
+.first-img-div {
+  background-image: url("https://images.unsplash.com/photo-1519682337058-a94d519337bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+/* Second Banner */
+.second-banner {
+  background-color:#4795B4;
+  color:#fff;
+  
+  padding: 15px 20px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.reading-text{
+  letter-spacing: 0.2em;
+}
+/* About text */
+.about-text {
+  word-spacing: 0.1em;
+  letter-spacing: 0.2em;
+  text-align: center;
+  padding: 35px 30px;
+  margin: 15px 15px;
+}
+
+/* Images */
+.img-container{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  
+}
+.imgs-box {
+  height: 250px;
+  width: 350px;
+  padding: 20px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meeting-section {
+  font-size: 18px;
+  text-align: left;
+  word-spacing: 0.1em;
+  letter-spacing: 0.2em;
+  background-color: #81A1AD;
+  width: 100%;
+  padding: 15px 15px;
+  margin: 15px 15px;
+  color: #fff;
+}
+
+.bookcase-img {
+  height: 350px;
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 30px;
+  
+}
+
+footer {
+  padding: 10px 15px 10px 15px;
+  background-color: #C0D4DC;
+  color: #6D6F6F;
+}
+
